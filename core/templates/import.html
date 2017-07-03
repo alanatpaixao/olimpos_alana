@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang = 'pt-br'>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Olimpios Alana</title>
+    <link rel="stylesheet" href="{% static 'vendores/semantic/semantic.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom' %}">
+
+  </head>
+  <body>
+{%  block 'nav' %}
+
+{% endblock  %}
+    <script type="text/javascript"> src="{% static 'vendores/jquery/jquery.mim.js' %}"></script>
+    <script type="text/javascript"> src="{% static 'vendores/semantic/semantic.mim.js' %}"></script>
+    <script type="text/javascript"> src="{% static 'js/custom.js'}"></script>
+
+    </script>
+  </body>
+</html>
